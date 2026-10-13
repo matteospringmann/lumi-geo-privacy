@@ -2,7 +2,7 @@
 
 *English version: [read in English](./).*
 
-*Dernière mise à jour : 11 octobre 2026*
+*Dernière mise à jour : 12 octobre 2026*
 
 Lumi GEO est une extension pour le navigateur Chrome qui analyse la page web ouverte : ce que les robots IA en voient, données structurées, accès des robots IA, bases SEO, fichier llms.txt.
 
@@ -25,9 +25,10 @@ L'extension mémorise dans votre navigateur (`chrome.storage.local`), et nulle p
 
 - vos préférences d'interface (animations activées ou non, présentation de Lumi déjà vue) ;
 - si vous êtes abonné : votre **clé de licence** et l'identifiant de son activation dans ce navigateur, ainsi que votre **dernier plan connu** (gratuit ou Pro, état de la clé, adresse e-mail de l'achat), pour qu'un abonné garde Pro quelques jours sans connexion ;
-- l'**historique des notes de chaque page analysée** (adresse de la page sans ses paramètres, date, note globale et notes des 4 piliers), pour afficher son évolution. Au maximum 30 analyses par page et 300 pages ; les plus anciennes sont oubliées en premier.
+- l'**historique des notes de chaque page analysée** (adresse de la page sans ses paramètres, date, note globale et notes des 4 piliers), pour afficher son évolution. Au maximum 30 analyses par page et 300 pages ; les plus anciennes sont oubliées en premier ;
+- pour le plan gratuit, le **compteur quotidien d'analyses** (5 pages différentes par jour) : la date du jour et un code court calculé à partir de chaque page analysée dans la journée. Ce code ne contient pas l'adresse de la page et ne permet pas de la retrouver. Ce compteur repart de zéro chaque jour.
 
-Ces informations ne quittent jamais votre appareil. Vous pouvez les effacer à tout moment (Réglages › « Effacer l'historique des notes »), et tout disparaît si vous désinstallez l'extension.
+Ces informations ne quittent jamais votre appareil. Vous pouvez effacer l'historique des notes à tout moment (Réglages › « Effacer l'historique des notes ») ; le compteur quotidien se remplace de lui-même chaque jour ; tout disparaît si vous désinstallez l'extension.
 
 ## Lumi IA (IA intégrée à Chrome)
 
@@ -59,7 +60,7 @@ Aucune. L'extension ne contient ni outil de statistiques, ni traceur, ni publici
 | `activeTab` | Lire la page ouverte, uniquement après votre clic sur l'icône                                                            |
 | `scripting` | Exécuter le script d'analyse dans cette page, après ce clic                                                              |
 | `sidePanel` | Afficher les résultats dans le panneau latéral                                                                           |
-| `storage`   | Mémoriser vos préférences d'interface, l'historique des notes et votre plan ; préparer le rapport PDF |
+| `storage`   | Mémoriser vos préférences d'interface, l'historique des notes, votre plan et le compteur quotidien des analyses gratuites ; préparer le rapport PDF |
 
 
 ## Contact

@@ -2,7 +2,7 @@
 
 *Version française : [lire en français](fr.html).*
 
-*Last updated: October 11, 2026*
+*Last updated: October 12, 2026*
 
 Lumi GEO is an extension for the Chrome browser that analyses the open web page: what AI crawlers see of it, structured data, AI crawler access, SEO basics, llms.txt file.
 
@@ -26,9 +26,10 @@ The extension stores in your browser (`chrome.storage.local`), and nowhere else:
 
 - your interface preferences (animations on or off, Lumi's introduction already seen);
 - if you subscribed: your **license key** and the identifier of its activation in this browser, and your **last known plan** (Free or Pro, status of the key, email of the purchase), so that a subscriber keeps Pro for a few days without a connection;
-- the **score history of each analysed page** (address of the page without its parameters, date, overall score and scores of the 4 pillars), to show how it changes. At most 30 analyses per page and 300 pages; the oldest are forgotten first.
+- the **score history of each analysed page** (address of the page without its parameters, date, overall score and scores of the 4 pillars), to show how it changes. At most 30 analyses per page and 300 pages; the oldest are forgotten first;
+- for the free plan, the **daily count of analyses** (5 different pages a day): today's date and a short code computed from each page analysed today. The code does not contain the address of the page and it cannot be read back from it. This count starts again every day.
 
-This information never leaves your device. You can erase it at any time (Settings › "Clear the score history"), and everything disappears if you uninstall the extension.
+This information never leaves your device. You can erase the score history at any time (Settings › "Clear the score history"); the daily count replaces itself every day; everything disappears if you uninstall the extension.
 
 ## Lumi AI (Chrome's built-in AI)
 
@@ -59,7 +60,7 @@ None. The extension contains no analytics tool, no tracker and no advertising.
 | `activeTab` | Read the open page, only after you click the icon                                                            |
 | `scripting` | Run the analysis script in that page, after that click                                                       |
 | `sidePanel` | Show the results in the side panel                                                                           |
-| `storage`   | Remember your interface preferences, the score history and your plan; prepare the PDF report                 |
+| `storage`   | Remember your interface preferences, the score history, your plan and the daily count of free analyses; prepare the PDF report |
 
 ## Contact
 
