@@ -2,7 +2,7 @@
 
 *English version: [read in English](./).*
 
-*Dernière mise à jour : 12 octobre 2026*
+*Dernière mise à jour : 14 octobre 2026*
 
 Lumi GEO est une extension pour le navigateur Chrome qui analyse la page web ouverte : ce que les robots IA en voient, données structurées, accès des robots IA, bases SEO, fichier llms.txt.
 
@@ -16,7 +16,7 @@ Seule exception : l'**abonnement Pro**, facultatif (voir plus bas). Il est gér�
 
 - L'analyse a lieu **uniquement quand vous cliquez** sur l'icône de l'extension, et seulement sur l'onglet concerné.
 - Elle se déroule **entièrement dans votre navigateur**. Aucun serveur appartenant à l'éditeur n'est contacté, et l'analyse n'utilise aucune API externe.
-- Pour vérifier les fichiers `/robots.txt`, `/llms.txt` et `/llms-full.txt`, et pour obtenir le HTML brut de la page (« vue robot »), l'extension les demande **au site que vous consultez**, exactement comme le ferait votre navigateur (le HTML brut est demandé sans cookies, comme le ferait un robot). Aucune autre adresse n'est contactée.
+- Pour vérifier les fichiers `/robots.txt`, `/llms.txt` et `/llms-full.txt`, et pour obtenir le HTML brut de la page (« vue robot »), l'extension les demande **au site que vous consultez**, exactement comme le ferait votre navigateur (le HTML brut est demandé sans cookies, comme le ferait un robot). Avec « Analyser le site » (Pro), quand vous cliquez dessus, le sitemap et jusqu'à 20 pages **du même site** sont demandés de la même façon, l'une après l'autre. Aucune autre adresse n'est contactée.
 - Le détail des résultats n'est pas enregistré et disparaît à la fermeture du panneau. Seule la note finale est gardée (voir ci-dessous).
 
 ## Stockage local
